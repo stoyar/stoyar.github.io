@@ -1,0 +1,35 @@
+html {
+	background-color: #7F9C62;
+	font-size: 20px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #DAFF7FFF;
+	padding: 0 20px 20px 20px;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+p, li {
+	font-size: 20px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+h1 {
+	margin: 0;
+	padding: 20px 0;
+	color: #413E0AFF;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 3px 3px 3px #404040FF;
+}
+img {
+	width: 95%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+}
