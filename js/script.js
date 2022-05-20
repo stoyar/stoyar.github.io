@@ -27,9 +27,9 @@ function drawBall() {
     //randomColor();
     ctx.beginPath();
     ctx.arc(x, y, ballRadius, 0, Math.PI*2);
-    ctx.fillStyle = 'blue';
+    ctx.fillStyle = ballColor;
     ctx.fill();
-    ctx.strokeStyle = 'red';
+    ctx.strokeStyle = '#aaaaaa';
     ctx.stroke();
     ctx.closePath();
 }
