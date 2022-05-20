@@ -24,7 +24,7 @@ function randomColor() {
 }
 
 function drawBall() {
-    randomColor();
+    //randomColor();
     ctx.beginPath();
     ctx.arc(x, y, ballRadius, 0, Math.PI*2);
     ctx.fillStyle = ballColor;
